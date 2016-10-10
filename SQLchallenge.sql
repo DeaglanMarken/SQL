@@ -1,6 +1,8 @@
 /*
-*SQL Challenge
+*SQL Challenge- Deletes the Database if it exists and then creates it again.
 */
+
+DROP DATABASE IF EXISTS Customer;
 
 CREATE DATABASE Customer;
 USE Customer;
